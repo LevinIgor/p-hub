@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+  import vCatalog from "@/components/Catalog.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <vCatalog />
 </template>
+
+<style lang="scss" scoped></style>
